@@ -23,7 +23,7 @@
 /* Mobile responsive */
 @media (max-width: 768px) {
   .footer {
-    font-size: 13px;
+    font-size: 13px;  
     padding: 14px;
   }
 }
