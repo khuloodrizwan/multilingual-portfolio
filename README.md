@@ -1,16 +1,64 @@
-# React + Vite
+Sure! Here’s the **entire simple README** in **one complete block**, ending with the Author section:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+````markdown
+# Multilingual Portfolio Website
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a **simple multilingual portfolio website** built with React and i18next.  
+It demonstrates how a website can support multiple languages and allows users to **switch languages** dynamically.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Multi-language support: English, Hindi, Marathi, German, French, Chinese  
+- Automatic browser language detection  
+- Manual language switching via dropdown  
+- Sections: Personal Info, Projects, Skills, Education  
+- Responsive and modern layout  
+- Clean UI with gradient backgrounds and hover effects  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- **Frontend:** React.js, i18next, CSS3  
+- **Tools:** Vite, Git, GitHub  
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Node.js & npm installed
+
+### Clone Repository
+```bash
+git clone https://github.com/khuloodrizwan/multilingual-portfolio.git
+cd multilingual-portfolio/frontend
+````
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Locally
+
+```bash
+npm run dev
+```
+
+Open the browser at `http://localhost:5173` (or the port Vite shows).
+
+---
+
+## Author
+
+**Khulood Chivilkar**
+
+* Email: [chivilkarkhulood@gmail.com](mailto:chivilkarkhulood@gmail.com)
+* GitHub: [khuloodrizwan](https://github.com/khuloodrizwan)
+
