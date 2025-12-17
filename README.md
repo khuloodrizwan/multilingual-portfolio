@@ -1,14 +1,7 @@
-Sure! Here’s the **entire simple README** in **one complete block**, ending with the Author section:
-
 ````markdown
 # Multilingual Portfolio Website
 
-## Overview
-
-This is a **simple multilingual portfolio website** built with React and i18next.  
-It demonstrates how a website can support multiple languages and allows users to **switch languages** dynamically.
-
----
+This is a **simple multilingual portfolio website** built with React and i18next. It demonstrates how a website can support multiple languages and allows users to **switch languages** dynamically. The app includes sections for Personal Info, Projects, Skills, and Education, with a clean UI featuring gradient backgrounds, hover effects, and a responsive layout. Multi-language support includes English, Hindi, Marathi, German, French, and Chinese, with automatic browser language detection and manual language switching via a dropdown.
 
 ## Features
 
@@ -19,41 +12,24 @@ It demonstrates how a website can support multiple languages and allows users to
 - Responsive and modern layout  
 - Clean UI with gradient backgrounds and hover effects  
 
----
-
 ## Tech Stack
 
 - **Frontend:** React.js, i18next, CSS3  
 - **Tools:** Vite, Git, GitHub  
 
----
-
 ## Getting Started
 
-### Prerequisites
-- Node.js & npm installed
+**Prerequisites:** Node.js & npm installed
 
-### Clone Repository
+**Clone Repository and Install Dependencies:**
 ```bash
 git clone https://github.com/khuloodrizwan/multilingual-portfolio.git
 cd multilingual-portfolio/frontend
+npm install
+npm run dev
 ````
 
-### Install Dependencies
-
-```bash
-npm install
-```
-
-### Run Locally
-
-```bash
-npm run dev
-```
-
-Open the browser at `http://localhost:5173` (or the port Vite shows).
-
----
+Open your browser at `http://localhost:5173` (or the port Vite shows) to see the app in action.
 
 ## Author
 
@@ -62,3 +38,5 @@ Open the browser at `http://localhost:5173` (or the port Vite shows).
 * Email: [chivilkarkhulood@gmail.com](mailto:chivilkarkhulood@gmail.com)
 * GitHub: [khuloodrizwan](https://github.com/khuloodrizwan)
 
+```
+```
