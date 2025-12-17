@@ -1,6 +1,3 @@
-Sure! Here’s the **entire simple README** in **one complete block**, ending with the Author section:
-
-````markdown
 # Multilingual Portfolio Website
 
 ## Overview
@@ -28,16 +25,12 @@ It demonstrates how a website can support multiple languages and allows users to
 
 ---
 
-## Getting Started
-
-### Prerequisites
-- Node.js & npm installed
-
 ### Clone Repository
+
 ```bash
 git clone https://github.com/khuloodrizwan/multilingual-portfolio.git
 cd multilingual-portfolio/frontend
-````
+```
 
 ### Install Dependencies
 
