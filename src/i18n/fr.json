@@ -1,0 +1,16 @@
+{
+  "login": {
+    "title": "Bon retour",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "button": "Connexion"
+  },
+  "home": {
+    "greeting": "Bonjour, {{name}} !",
+    "personalInfo": "Informations personnelles",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "education": "Éducation",
+    "footer": "© 2025 Mon application Portfolio"
+  }
+}

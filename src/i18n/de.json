@@ -1,0 +1,16 @@
+{
+  "login": {
+    "title": "Willkommen zurück",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "button": "Anmelden"
+  },
+  "home": {
+    "greeting": "Hallo, {{name}}!",
+    "personalInfo": "Persönliche Informationen",
+    "projects": "Projekte",
+    "skills": "Fähigkeiten",
+    "education": "Ausbildung",
+    "footer": "© 2025 Meine Portfolio-App"
+  }
+}

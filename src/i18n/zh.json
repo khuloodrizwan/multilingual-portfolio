@@ -1,0 +1,16 @@
+{
+  "login": {
+    "title": "欢迎回来",
+    "email": "电子邮箱",
+    "password": "密码",
+    "button": "登录"
+  },
+  "home": {
+    "greeting": "你好，{{name}}！",
+    "personalInfo": "个人信息",
+    "projects": "项目",
+    "skills": "技能",
+    "education": "教育背景",
+    "footer": "© 2025 我的作品集应用"
+  }
+}

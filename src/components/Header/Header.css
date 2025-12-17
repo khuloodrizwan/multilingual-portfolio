@@ -1,0 +1,53 @@
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+
+  background: linear-gradient(135deg, #0b1026, #12194a); /* slightly darker, matches footer gradient style */
+  color: #e6e9ff;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); /* subtle shadow */
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Language Switcher inside header */
+.language-switcher select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(122, 162, 255, 0.25);
+  background: linear-gradient(135deg, #141a3a, #0c1332);
+  color: #e6e9ff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.language-switcher select:hover {
+  background: linear-gradient(135deg, #1f275e, #141a3a);
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+/* Responsive for small screens */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 20px;
+  }
+
+  .language-switcher select {
+    margin-top: 10px;
+  }
+}

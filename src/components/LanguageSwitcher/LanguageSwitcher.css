@@ -1,0 +1,51 @@
+.language-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  padding: 8px 36px 8px 12px;
+  font-size: 14px;
+  font-weight: 500;
+
+  color: #e6e9ff;
+  background: linear-gradient(135deg, #1a1f4d, #0c1332);
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+
+  cursor: pointer;
+  outline: none;
+
+  transition: all 0.25s ease;
+
+  /* dropdown arrow */
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+/* Hover */
+.language-select:hover {
+  border-color: #7aa2ff;
+  box-shadow: 0 0 0 2px rgba(122, 162, 255, 0.2);
+}
+
+/* Focus */
+.language-select:focus {
+  border-color: #7aa2ff;
+  box-shadow: 0 0 0 3px rgba(122, 162, 255, 0.35);
+}
+
+/* Dropdown options */
+.language-select option {
+  background-color: #0c1332;
+  color: #ffffff;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .language-select {
+    font-size: 13px;
+    padding: 6px 32px 6px 10px;
+  }
+}

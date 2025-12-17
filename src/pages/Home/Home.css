@@ -1,0 +1,182 @@
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  background: linear-gradient(135deg, #0b1026, #12194a);
+  color: #e6e9ff;
+}
+
+/* MAIN CONTENT */
+main {
+  flex: 1;
+  padding: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* WELCOME */
+.welcome h2 {
+  font-size: 26px;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+
+/* SECTION COMMON */
+section {
+  margin-bottom: 32px;
+  padding: 20px;
+
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+
+  box-shadow: 0 10px 22px rgba(170, 168, 168, 0.155);
+}
+
+/* TITLES */
+section h3 {
+  margin-bottom: 14px;
+  font-size: 20px;
+  color: #cfd6ff;
+}
+
+/* PERSONAL INFO */
+.personal-info p {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+/* PROJECTS */
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* PROJECT CARD */
+.project-card {
+  display: flex;
+  align-items: flex-start; /* top-aligned text for multi-line descriptions */
+  gap: 16px;
+
+  padding: 16px;
+  border-radius: 12px;
+
+  background: linear-gradient(135deg, #141a3a, #0c1332);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4);
+}
+
+/* PROJECT IMAGE */
+.project-card .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  flex-shrink: 0;
+}
+
+/* PROJECT TEXT */
+.project-card h4 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.project-card p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #b8c0ff;
+  line-height: 1.6; /* extra space for <br /> readability */
+}
+
+/* CATCHLINE */
+.project-catchline {
+  font-size: 14px;
+  font-style: italic;
+  color: #7aa2ff;
+  margin-top: 6px;
+}
+
+/* BULLETED FEATURES (optional style for <br /> lines) */
+.project-card p br {
+  content: "";
+  display: block;
+  margin-bottom: 4px; /* small gap between feature lines */
+}
+/* SKILLS */
+/* SKILLS SECTION */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+
+  padding-top: 8px;
+}
+
+/* Individual skill */
+.skill-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 6px 16px;
+  min-height: 32px;
+
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+
+  border-radius: 999px;
+
+  background: linear-gradient(135deg, #1f275e, #141a3a);
+  color: #e6e9ff;
+
+  border: 1px solid rgba(122, 162, 255, 0.25);
+
+  cursor: default;
+  transition: all 0.25s ease;
+}
+
+
+/* Hover effect */
+.skill-badge:hover {
+  transform: translateY(-2px) scale(1.04);
+  background: linear-gradient(135deg, #2a3aff, #7aa2ff);
+  color: #ffffff;
+  box-shadow: 0 6px 14px rgba(122, 162, 255, 0.35);
+}
+
+
+/* EDUCATION */
+.education p {
+  font-size: 15px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  main {
+    padding: 16px;
+  }
+
+  .project-card {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .project-card .img {
+    margin-bottom: 12px;
+  }
+
+  .project-card p {
+    text-align: center;
+  }
+}

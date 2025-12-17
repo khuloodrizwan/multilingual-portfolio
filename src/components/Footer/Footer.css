@@ -1,0 +1,29 @@
+.footer {
+  width: 100%;
+  padding: 16px 20px;
+
+  background: linear-gradient(135deg, #0c1332, #1a1f4d);
+  color: #cfd6ff;
+
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+
+  letter-spacing: 0.3px;
+}
+
+/* Hover effect (optional, subtle) */
+.footer:hover {
+  color: #ffffff;
+  transition: color 0.25s ease;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .footer {
+    font-size: 13px;
+    padding: 14px;
+  }
+}

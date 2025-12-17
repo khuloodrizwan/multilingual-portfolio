@@ -1,0 +1,16 @@
+{
+  "login": {
+    "title": "Welcome Back",
+    "email": "Email",
+    "password": "Password",
+    "button": "Login"
+  },
+  "home": {
+    "greeting": "Hello, {{name}}!",
+    "personalInfo": "Personal Info",
+    "projects": "Projects",
+    "skills": "Skills",
+    "education": "Education",
+    "footer": "© 2025 My Profolio App"
+  }
+}
